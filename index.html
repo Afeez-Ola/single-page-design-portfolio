@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
@@ -23,31 +24,74 @@
       </div>
       <div class="hero">
         <h2>Design solutions made easy</h2>
-        <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+        <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design
+          needs.</p>
       </div>
       <main class="container">
-        
+        <div class="skilss">
+          <div class="graphic_design">
+            <img src="assets/pattern-graphic-design.svg" alt="pattern-graphic-design">
+            <h2>Graphic Design</h2>
+          </div>
+          <div class="ui_ux">
+            <img src="assets/pattern-ui-ux.svg" alt="pattern-ui-ux">
+            <h2>UI/UX</h2>
+          </div>
+          <div class="apps">
+            <img src="assets/pattern-apps.svg" alt="pattern-apps">
+            <h2>Apps</h2>
+          </div>
+          <div class="photography">
+            <img src="assets/pattern-photography.svg" alt="pattern-photography">
+            <h2>Photography</h2>
+          </div>
+          <div class="illustrations">
+            <img src="assets/pattern-illustrations.svg" alt="pattern-illustrations">
+            <h2>Illustrations</h2>
+          </div>
+          <div class="motion_graphics">
+            <img src="assets/pattern-motion-graphics.svg" alt="pattern-motion-graphics">
+            <h2>Motion Graphics</h2>
+          </div>
+        </div>
+        <div class="profile">
+          <img src="assets/image-amy.webp" alt="image-amy">
+          <div class="profile_notes">
+            <h2>I’m Amy, and I’d love to work on your next project</h2>
+            <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand
+              illustrations
+              to complete mobile apps. I’m also handy with a camera!</p>
+            <a href="#">Free Consultation</a>
+          </div>
+        </div>
+
+        <div class="work_carousel">
+          <div class="relative w-full">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center">Slide 1</div>
+                <div class="swiper-slide bg-blue-500 h-64 flex items-center justify-center">Slide 2</div>
+                <div class="swiper-slide bg-green-500 h-64 flex items-center justify-center">Slide 3</div>
+              </div>
+              <div class="swiper-button-next bg-black p-2 rounded-full text-white"></div>
+              <div class="swiper-button-prev bg-black p-2 rounded-full text-white"></div>
+            </div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+          <script>
+            const swiper = new Swiper('.swiper', {
+              loop: true,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+        </div>
+
       </main>
     </div>
   </div>
-
-  
-
-  
-
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
-
-  I’m Amy, and I’d love to work on your next project
-
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
 
   My Work
 

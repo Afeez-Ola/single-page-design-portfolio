@@ -647,6 +647,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
 }
@@ -657,6 +661,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .hidden {
   display: none;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .border-collapse {
@@ -671,12 +683,38 @@ h1, h2, h3, h4, h5, h6 {
   resize: both;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 3 3 / var(--tw-bg-opacity, 1));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .italic {
   font-style: italic;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 247 240 / var(--tw-text-opacity, 1));
 }
 
 .underline {
