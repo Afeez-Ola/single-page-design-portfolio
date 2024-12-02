@@ -700,6 +700,22 @@ h1, h2, h3, h4, h5, h6 {
   height: 24rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
+.h-44 {
+  height: 11rem;
+}
+
+.h-\[11\.3rem\] {
+  height: 11.3rem;
+}
+
+.h-\[9\.87rem\] {
+  height: 9.87rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -738,6 +754,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .max-w-max {
