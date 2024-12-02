@@ -643,6 +643,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -653,6 +657,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .contents {
@@ -671,6 +679,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -683,6 +707,14 @@ h1, h2, h3, h4, h5, h6 {
   resize: both;
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -693,6 +725,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-full {
@@ -713,6 +753,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[2rem\] {
+  border-radius: 2rem;
 }
 
 .border {
@@ -778,13 +826,67 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 1.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-jakarta {
+  font-family: Plus Jakarta Sans, serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .italic {
   font-style: italic;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 247 240 / var(--tw-text-opacity, 1));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(3 3 3 / var(--tw-text-opacity, 1));
+}
+
+.text-grey {
+  --tw-text-opacity: 1;
+  color: rgb(122 116 110 / var(--tw-text-opacity, 1));
 }
 
 .underline {
