@@ -691,8 +691,28 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .border {
@@ -704,8 +724,58 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(3 3 3 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(117 92 222 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 165 96 / var(--tw-bg-opacity, 1));
+}
+
+.bg-pink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 158 158 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 117 101 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 196 183 / var(--tw-bg-opacity, 1));
+}
+
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 32 73 / var(--tw-bg-opacity, 1));
+}
+
 .p-2 {
   padding: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .italic {
