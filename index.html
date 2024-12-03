@@ -21,7 +21,7 @@
     <div class="w-11/12 mx-auto font-jakarta">
       <div class="nav flex justify-between py-4 items-center ">
         <img src="assets/logo.svg" alt="logo" class="logo">
-        <a class="bg-black text-white px-6 py-3 rounded-[2rem]" href="#">Free Consultation</a>
+        <a class="bg-black hover:bg-blue text-white px-6 py-3 rounded-[2rem]" href="#">Free Consultation</a>
       </div>
       <div class="hero flex flex-col justify-center items-center text-center gap-4 my-8">
         <h2 class="text-black font-bold text-4xl font-jakarta">Design solutions made easy</h2>
@@ -113,31 +113,49 @@
         <script>
           const swiper = new Swiper('.swiper', {
             loop: true,
-            slidesPerView: 1.5,
             spaceBetween: 14,
             centeredSlides: true,
             navigation: {
               nextEl: '.button-next',
               prevEl: '.button-prev',
             },
+            breakpoints: {
+    // When the screen width is >= 640px (tablet)
+    640: {
+      slidesPerView: 2.5, // Show 2.5 slides on tablets
+      spaceBetween: 20,   // Adjust space between slides
+    },
+    // When the screen width is >= 1024px (desktop)
+    1024: {
+      slidesPerView: 2, // Show 3.5 slides on desktops
+      spaceBetween: 30,   // Adjust space between slides
+    },
+    // Default for smaller screens
+    0: {
+      slidesPerView: 1.5, // Show 1.5 slides on small devices
+    },
+  },
           });
         </script>
       </div>
       <div
-        class="cta bg-black text-white w-11/12 mx-auto my-16 p-16 flex flex-col justify-center items-center text-center gap-6 rounded-2xl">
-        <h2 class="font-bold text-[1.62rem] leading-normal">Book a call with me</h2>
-        <p class="text-base md:w-10/12">I’d love to have a chat to see how I can help you. The best first step is for us to discuss
+        class="cta bg-black text-white w-11/12 mx-auto my-16 p-16 flex flex-col justify-center items-center text-center gap-6 lg:justify-around rounded-2xl lg:flex-row ">
+        <div class="cta_note flex flex-col justify-center  lg:w-1/2 lg:justify-start text-center gap-6 lg:text-left">
+<h2 class="font-bold text-[1.62rem] leading-normal lg:text-left">Book a call with me</h2>
+        <p class="text-base md:w-10/12 lg:ml-0">I’d love to have a chat to see how I can help you. The best first step is for us to discuss
           your project
           during a
           free consultation. Then we can move forward from there.</p>
-        <a class="bg-red py-4 px-8 rounded-full" href="#">Free Consultation</a>
+        </div>
+        
+        <a class="bg-red hover:bg-yellow py-4 px-8 rounded-full" href="#">Free Consultation</a>
       </div>
     </main>
 
     <footer class="w-11/12 mx-auto">
       <div class="nav flex justify-between py-4 items-center ">
         <img src="assets/logo.svg" alt="logo" class="logo">
-        <a class="bg-black text-white px-6 py-3 rounded-[2rem]" href="#">Free Consultation</a>
+        <a class="bg-black text-white hover:bg-blue px-6 py-3 rounded-[2rem]" href="#">Free Consultation</a>
       </div>
     </footer>
   </div>
