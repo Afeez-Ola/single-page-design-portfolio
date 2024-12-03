@@ -882,6 +882,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 1rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .max-w-max {
   max-width: -moz-max-content;
   max-width: max-content;
@@ -1392,6 +1396,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .lg\:w-9\/12 {
     width: 75%;
+  }
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .lg\:grid-cols-3 {
