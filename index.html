@@ -73,34 +73,34 @@
         </div>
       </div>
 
-      <div class="work_carousel mt-40 ">
-        <h2 class="font-bold text-2xl mx-auto text-black">My Work</h2>
-        <div class="relative w-full">
+      <div class="work_carousel mt-40 text-center ">
+        <h2 class="font-bold text-2xl mx-auto text-black mb-8">My Work</h2>
+        <div class="relative w-full pb-20">
           <div class="swiper ">
             <div class="swiper-wrapper ">
               <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center rounded-xl"><img
                   class="rounded-xl" src="assets/image-slide-1.jpg" alt="image-slide-1"></div>
-              <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center"><img class="rounded-xl"
+              <div class="swiper-slide rounded-xl bg-red-500 h-64 flex items-center justify-center"><img class="rounded-xl"
                   src="assets/image-slide-2.jpg" alt="image-slide-2"></div>
-              <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center"><img class="rounded-xl"
+              <div class="swiper-slide bg-red-500 rounded-xl h-64 flex items-center justify-center"><img class="rounded-xl"
                   src="assets/image-slide-3.jpg" alt="image-slide-3"></div>
-              <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center"><img class="rounded-xl"
+              <div class="swiper-slide bg-red-500 rounded-xl  h-64 flex items-center justify-center"><img class="rounded-xl"
                   src="assets/image-slide-4.jpg" alt="image-slide-4"></div>
-              <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center"><img class="rounded-xl"
+              <div class="swiper-slide bg-red-500 rounded-xl h-64 flex items-center justify-center"><img class="rounded-xl"
                   src="assets/image-slide-5.jpg" alt="image-slide-5"></div>
             </div>
             <!-- <div class="swiper-button-next bg-black p-10 rounded-full text-white"></div>
             <div class="swiper-button-prev bg-black p-10 rounded-full text-white"></div> -->
 
           </div>
-          <div class="absolute bottom-4 flex justify-center items-center space-x-2">
+          <div class="absolute bottom-8 left-0 right-0 flex justify-center items-center w-1/2 mx-auto ">
             <button
-              class="swiper-button-prev bg-black text-white rounded-full w-10 h-10 ">
-              &#8592;
+              class="swiper-button-prev bg-black text-white rounded-full  w-10 h-10 flex items-center justify-center">
+             
             </button>
             <button
               class="swiper-button-next bg-black text-white rounded-full w-10 h-10 flex items-center justify-center">
-              &#8594;
+              
             </button>
           </div>
         </div>
@@ -108,7 +108,7 @@
         <script>
           const swiper = new Swiper('.swiper', {
             loop: true,
-            slidesPerView: 1.2, // Allows peeking of the next slide
+            slidesPerView: 1.1, // Allows peeking of the next slide
             spaceBetween: 14, // Spacing between slides
             navigation: {
               nextEl: '.swiper-button-next',
