@@ -1162,6 +1162,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 2rem;
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1462,6 +1467,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .lg\:p-32 {
     padding: 8rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .lg\:text-left {
