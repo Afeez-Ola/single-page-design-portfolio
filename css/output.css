@@ -814,6 +814,14 @@ h1, h2, h3, h4, h5, h6 {
   height: 0.5rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1358,6 +1366,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   .lg\:ml-0 {
     margin-left: 0px;
+  }
+
+  .lg\:h-7 {
+    height: 1.75rem;
+  }
+
+  .lg\:h-72 {
+    height: 18rem;
   }
 
   .lg\:w-2\/5 {
