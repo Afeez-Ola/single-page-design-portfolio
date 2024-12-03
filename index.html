@@ -91,14 +91,14 @@
             </div>
 
           </div>
-          <div class="absolute bottom-8 left-0 right-0 flex justify-center items-center w-1/2 mx-auto ">
+          <div class="absolute bottom-8 gap-4 left-0 right-0 flex justify-center items-center w-1/2 mx-auto ">
             <button
-              class="swiper-button-prev bg-black text-white rounded-full  w-10 h-10 flex items-center justify-center">
-             
+              class="button-prev bg-black text-white rounded-full  p-3  flex items-center justify-center">
+              <img src="assets/icon-arrow-left.svg" alt="">
             </button>
             <button
-              class="swiper-button-next bg-black text-white rounded-full w-10 h-10 flex items-center justify-center">
-              
+              class="button-next bg-black text-white rounded-full p-3 flex items-center justify-center">
+              <img src="assets/icon-arrow-right.svg" alt="">
             </button>
           </div>
         </div>
@@ -110,18 +110,18 @@
             spaceBetween: 14, 
             centeredSlides: true,
             navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+              nextEl: '.button-next',
+              prevEl: '.button-prev',
             },
           });
         </script>
       </div>
-      <div class="cta">
-        <h2>Book a call with me</h2>
-        <p>I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
+      <div class="cta bg-black text-white w-11/12 mx-auto p-16 flex flex-col justify-center items-center text-center gap-6 rounded-2xl">
+        <h2 class="font-bold text-[1.62rem] leading-normal">Book a call with me</h2>
+        <p class="text-base">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
           during a
           free consultation. Then we can move forward from there.</p>
-        <a href="#">Free Consultation</a>
+        <a class="bg-red py-4 px-8 rounded-full" href="#">Free Consultation</a>
       </div>
     </main>
 
