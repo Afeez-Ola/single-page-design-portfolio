@@ -31,31 +31,40 @@
       </div>
     </div>
     <main class=" w-100%">
-      <div class="skilss grid  gap-6  mx-auto my-24 mb-10 w-11/12">
-        <div class="graphic_design bg-blue h-96 p-6 flex flex-col rounded-lg  justify-between ">
+      <div class="skills grid gap-6 mx-auto my-24 mb-10 w-11/12 md:grid-cols-2">
+        <!-- Graphic Design -->
+        <div
+          class="graphic_design bg-blue h-96 p-6 flex flex-col rounded-lg justify-between md:col-span-1 md:row-span-2">
           <img class="self-end w-2/5" src="assets/pattern-graphic-design.svg" alt="pattern-graphic-design">
           <h2 class="font-bold text-white text-2xl">Graphic Design</h2>
         </div>
-        <div class="small_grid grid grid-cols-2 gap-4">
-          <div class="ui_ux bg-yellow h-[11.3rem] px-6 py-4 flex flex-col rounded-lg  justify-between">
+
+        <!-- UI/UX and Apps (Combined in a nested grid) -->
+        <div class="small_grid grid grid-cols-2 gap-4 md:col-span-1">
+          <div class="ui_ux bg-yellow h-[11.3rem] px-6 py-4 flex flex-col rounded-lg justify-between">
             <img class="self-end w-3/5" src="assets/pattern-ui-ux.svg" alt="pattern-ui-ux">
             <h2 class="font-bold text-white text-2xl">UI/UX</h2>
           </div>
-          <div class="apps bg-pink px-6 py-4 flex flex-col rounded-lg  justify-between">
+          <div class="apps bg-pink h-[11.3rem] px-6 py-4 flex flex-col rounded-lg justify-between">
             <img class="self-end w-3/5" src="assets/pattern-apps.svg" alt="pattern-apps">
             <h2 class="font-bold text-white text-2xl">Apps</h2>
           </div>
         </div>
-        <div class="illustrations bg-red h-[9.87rem] px-6 py-4 flex flex-col rounded-lg  justify-between">
+
+        <!-- Illustrations -->
+        <div class="illustrations bg-red h-[11.3rem] px-6 py-4 flex flex-col rounded-lg justify-between">
           <img class="self-end w-2/5" src="assets/pattern-illustrations.svg" alt="pattern-illustrations">
           <h2 class="font-bold text-white text-2xl">Illustrations</h2>
         </div>
-        <div class="photography bg-green h-[11.3rem] px-6 py-4 flex flex-col rounded-lg  justify-between">
+
+        <!-- Photography -->
+        <div class="photography bg-green h-[11.3rem] px-6 py-4 flex flex-col rounded-lg justify-between">
           <img class="self-end w-3/5" src="assets/pattern-photography.svg" alt="pattern-photography">
           <h2 class="font-bold text-white text-2xl">Photography</h2>
         </div>
 
-        <div class="motion_graphics bg-purple h-[11.3rem] px-6 py-4 flex flex-col rounded-lg  justify-between">
+        <!-- Motion Graphics -->
+        <div class="motion_graphics bg-purple h-[11.3rem] px-6 py-4 flex flex-col rounded-lg justify-between">
           <img class="self-end w-2/5" src="assets/pattern-motion-graphics.svg" alt="pattern-motion-graphics">
           <h2 class="font-bold text-white text-2xl">Motion Graphics</h2>
         </div>
@@ -73,31 +82,29 @@
         </div>
       </div>
 
-      <div class="work_carousel mt-40 text-center ">
+      <div class="work_carousel mt-40 text-center  mx-auto ">
         <h2 class="font-bold text-2xl mx-auto text-black mb-8">My Work</h2>
         <div class="relative w-full pb-20 ">
           <div class="swiper rounded-2xl ">
             <div class="swiper-wrapper rounded-2xl ">
-              <div class="swiper-slide bg-red-500 h-64 flex items-center justify-center rounded-xl"><img
+              <div class="swiper-slide bg-red-500 h-64  flex items-center justify-center rounded-xl"><img
                   class="rounded-xl" src="assets/image-slide-1.jpg" alt="image-slide-1"></div>
-              <div class="swiper-slide rounded-xl bg-red-500 h-64 flex items-center justify-center"><img class="rounded-xl"
-                  src="assets/image-slide-2.jpg" alt="image-slide-2"></div>
-              <div class="swiper-slide bg-red-500 rounded-xl h-64 flex items-center justify-center"><img class="rounded-xl"
-                  src="assets/image-slide-3.jpg" alt="image-slide-3"></div>
-              <div class="swiper-slide bg-red-500 rounded-xl  h-64 flex items-center justify-center"><img class="rounded-xl"
-                  src="assets/image-slide-4.jpg" alt="image-slide-4"></div>
-              <div class="swiper-slide bg-red-500 rounded-xl h-64 flex items-center justify-center"><img class="rounded-xl"
-                  src="assets/image-slide-5.jpg" alt="image-slide-5"></div>
+              <div class="swiper-slide rounded-xl bg-red-500 h-64 flex items-center justify-center"><img
+                  class="rounded-xl" src="assets/image-slide-2.jpg" alt="image-slide-2"></div>
+              <div class="swiper-slide bg-red-500 rounded-xl h-64 flex items-center justify-center"><img
+                  class="rounded-xl" src="assets/image-slide-3.jpg" alt="image-slide-3"></div>
+              <div class="swiper-slide bg-red-500 rounded-xl  h-64 flex items-center justify-center"><img
+                  class="rounded-xl" src="assets/image-slide-4.jpg" alt="image-slide-4"></div>
+              <div class="swiper-slide bg-red-500 rounded-xl h-64 flex items-center justify-center"><img
+                  class="rounded-xl" src="assets/image-slide-5.jpg" alt="image-slide-5"></div>
             </div>
 
           </div>
           <div class="absolute bottom-8 gap-4 left-0 right-0 flex justify-center items-center w-1/2 mx-auto ">
-            <button
-              class="button-prev bg-black text-white rounded-full  p-3  flex items-center justify-center">
+            <button class="button-prev bg-black text-white rounded-full  p-3  flex items-center justify-center">
               <img src="assets/icon-arrow-left.svg" alt="">
             </button>
-            <button
-              class="button-next bg-black text-white rounded-full p-3 flex items-center justify-center">
+            <button class="button-next bg-black text-white rounded-full p-3 flex items-center justify-center">
               <img src="assets/icon-arrow-right.svg" alt="">
             </button>
           </div>
@@ -106,8 +113,8 @@
         <script>
           const swiper = new Swiper('.swiper', {
             loop: true,
-            slidesPerView: 1.5, 
-            spaceBetween: 14, 
+            slidesPerView: 1.5,
+            spaceBetween: 14,
             centeredSlides: true,
             navigation: {
               nextEl: '.button-next',
@@ -116,9 +123,11 @@
           });
         </script>
       </div>
-      <div class="cta bg-black text-white w-11/12 mx-auto my-16 p-16 flex flex-col justify-center items-center text-center gap-6 rounded-2xl">
+      <div
+        class="cta bg-black text-white w-11/12 mx-auto my-16 p-16 flex flex-col justify-center items-center text-center gap-6 rounded-2xl">
         <h2 class="font-bold text-[1.62rem] leading-normal">Book a call with me</h2>
-        <p class="text-base">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
+        <p class="text-base">I’d love to have a chat to see how I can help you. The best first step is for us to discuss
+          your project
           during a
           free consultation. Then we can move forward from there.</p>
         <a class="bg-red py-4 px-8 rounded-full" href="#">Free Consultation</a>
